@@ -1,39 +1,41 @@
 Github About Page
 ================
 
-Version 1.0
+Version 2.0
 
 _Everything **about** yourself on Github._
 
-This project helps you to generate a github page to list and introduce your information and repositories on Github. The page it generated is under your domain and fully under your control. If you are familiar with HTML / CSS / Javascript, you can customise and beautify it to meet your own requirement.
+This project helps you to build a **about** page to introduce all your information on Github, including your profile, public repositories and contribution frequency. All you need to do is to fork this repository then activate its gh-pages branch. Your **about** page is hosted under your own Github and you can show it to others as a clear and intuitive introduction of your work at Github.
 
-Briefly speaking, **it's your Github personal homepage in a friendly and clear view**.
+Briefly speaking, Github official user profile page sucks, so I improved it and made it easy to use by others.
 
-Take a quick glance at it:  [http://andrelion.github.io/about/](http://andrelion.github.io/about/)
+Take a quick glance at the **Github About Page** below as [an example](http://andrelion.github.io/about/) and you can [preview your own](http://andrelion.github.io/about/preview/).
 
-![Preview](http://andrelion.github.io/about/assets/preview.png "Preview")
+![Preview](http://andrelion.github.io/about/assets/preview.png?v "Preview")
 
-[Also you can preview your own Github About Page](http://andrelion.github.io/about/preview/).
+
+
 
 Features
 -----------------
-1. Indepedent and graceful url address, e.g. http://yourname.github.io/about
-2. List your Github personal information you provided in the profile setting.
-3. List your Github public repositories, you can choose to recommend or ignore some of them.
-4. You can extend your personal information such as Twitter account.
-5. You can customise your repository information by adding a image.
-5. Easy to deploy, every code is under your control.
+1. A better self-introduction page of Github than official one.
+2. Clearly list your Github profile, public repositories and contributiong frequency.
+3. You can customise and extend your information on the page. 
+4. Easy to use. There only 2 steps then you can have your own **Github About Page**.
+5. Update notification when new version or bugfix is available.
+
 
 How to get your own Github About Page?
 -----------------
-It's very easy, there are only two things need to be done:
+It's very easy, there are only two steps you need to do:
 
-1. Fork repository [AndreLion/about](https://github.com/AndreLion/about)
-2. Go to your gh-pages branch [https://github.com/*your-github-ID*/about/tree/gh-pages](https://github.com/your-github-ID/about/tree/gh-pages) and delete the file called delete_me.md in order to activate your github page.
+1. Fork me.
+2. Activate the gh-pages by modifying the file called modify-me.md under your gh-pages branch [https://github.com/*your-github-ID*/about/tree/gh-pages](https://github.com/your-github-ID/about/tree/gh-pages).
 
 Then, wait at most ten minutes till your own Github About Page has been shipped. 
 
 The Url would be [http://*your-github-ID*.github.io/about/](http://your-github-ID.github.io/about/)
+
 
 How to customise your own Github About Page?
 -----------------
@@ -42,16 +44,19 @@ You can change your code to whatever you like because you have the ownership of 
 1. config.json : in this file, you can extend your personal or repo information. For more details, plase check the comment in this file.
 2. css/style.css : in the bottom of this file, you can add your own stylesheet to make you repo card perfectly shows in your Github About Page.
 
+
 How to keep update?
 -----------------
-This need some work in termial with some git commands.
-
-If some updates are made in the [original repo](https://github.com/AndreLion/about) and you want to apply them to your own forked repo, please follow these two giudes to make your Github About Page catching up the latest version:
+When there is a new version available, a notification will be shown on your **Github About Page**. Then you need to do some command work to make your Github About Page catching up the latest version.
 
 1. [Syncing a fork in local](https://help.github.com/articles/syncing-a-fork).
 2. [Pushing a branch to remote](https://help.github.com/articles/pushing-to-a-remote#pushing-a-branch).
 
-If you are afraid of command work, you can simply backup your own code then delete the repo then fork a new one then restore the code you backed-up.
+Or, there is another eaiser method to do so:
+
+1. Delete your **about** repository.
+2. Goto: [How to get your own Github About Page](https://github.com/AndreLion/about#how-to-get-your-own-github-about-page)
+
 
 Acknowledge
 ----------------
